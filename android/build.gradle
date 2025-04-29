@@ -26,7 +26,11 @@ android {
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
+    }
+
+    kotlinOptions {
+        jvmTarget = "17" // Add this line with a supported JVM target version
     }
 
     buildTypes {
